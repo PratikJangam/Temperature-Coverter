@@ -1,0 +1,63 @@
+
+@import url(https://fonts.googleapis.com/css?family=Mulish:200,300,regular,500,600,700,800,900,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Mulish",sans-serif;
+    /* font-family: 'Courier New', Courier, monospace */
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(255, 246, 114, 0.945);
+    display: grid;
+    place-items: center;
+}
+
+form{
+    background-color: antiquewhite;
+    padding: 80px;
+    width: 50%;
+    margin: 100px auto;
+    text-align: center;
+
+}
+
+#tempCalc label{
+    font-size: 30px;
+
+}
+
+#temp {
+    border: none;
+    padding: 10px;
+    height: 40px;
+    width: 100px;
+    font-size: 20px;
+    margin-top: 20px;
+
+}
+
+#temp_diff{
+    height: 40px;
+    border: none;
+    margin-top: 20px;
+    font-size: 15px;
+    vertical-align: top;
+}
+
+[type ='submit']{
+    height: 35px;
+    margin: 20px;
+    width: 100px;
+    font-size: 15px;
+    border: none;
+    background-color: black;
+    color: white;
+}
+
+#resultContainer{
+    font-size: 35px;
+}
